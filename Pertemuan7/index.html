@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Membuat Persegi dengan Karakter</title>
+</head>
+<body>
+<form onsubmit="generateSquare(event)"> 
+  <label for="panjang">Masukkan panjang persegi (bilangan bulat positif):</label>
+  <input type="text" name="panjang" id="panjang">
+  <br>
+  <label for="karakter">Masukkan karakter untuk menggambar persegi:</label>
+  <input type="text" name="karakter" id="karakter">
+  <br>
+  <input type="submit" value="Submit">
+</form>
+<div id="squareResult"></div>
+<script src="script.js"></script>
+
+</body>
+</html>
